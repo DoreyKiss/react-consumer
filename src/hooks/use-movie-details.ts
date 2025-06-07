@@ -3,7 +3,7 @@ import {useParams, useSearchParams} from 'react-router-dom'
 
 export function useMovieDetails() {
   // Get the id from the route params or query parameters
-  // .../movies/{{movieId}}Add commentMore actions
+  // .../movies/{{movieId}}
   const {id} = useParams<{id: string}>()
   // .../movies?name={{movieName}}
   const [searchParams] = useSearchParams()
