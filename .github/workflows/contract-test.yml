@@ -1,4 +1,4 @@
-name: Run contract testsAdd commentMore actions
+name: Run contract tests
 
 on: push
 
